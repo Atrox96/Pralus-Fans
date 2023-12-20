@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D2B48C;
+    margin: 0;
+}
+
+#menu {
+    width: 15%;
+    height: 98%;
+    background-color: #a88f4a;
+    position: fixed;
+    left: 0.5%;
+    top: 1%;
+    padding: 2%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+p{
+    color: white;
+}
+
+#menu a:link,
+#menu a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #ffd700;
+}
+
+#page {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 17%;
+    margin-right: 2%;
+    width: 80%;
+}
+
+#texte {
+    margin-top: 3%;
+    color: white;
+    margin-right: 3%;
+    width: 75%;
+}
+
+#page img {
+    border-radius: 15px;
+   
+}
+
+#logo-pralus img {
+    margin: 0 0 5%;
+    margin-left: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 80%;
+    height: 180px;
+    display: block;
+}
+
+#imgpraluline{
+    width: 50%;
+}
+
+#imgindex{
+    width: 60%;
+}
+#imglabarre{
+    width: 28%;
+}
+
+#imgtablettes{
+    width: 50%;
+}
+
+#imgpyramides{
+    width: 28%;
+}
+
+#menu2{
+    padding-top: 240%;
+}
